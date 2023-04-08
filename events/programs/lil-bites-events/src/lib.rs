@@ -1,12 +1,12 @@
 use anchor_lang::prelude::*;
 
-declare_id!("E12wjANt2B7oUzucZ6jnfoLbymFmtC3UhUQn7HPaBrGr");
+declare_id!("8PMVG87KG7Vq9iAqAbCDMgorBjBpuz36HXiF8jBFGsL1");
 
 // Let's create a psuedo-coinflip game (without the randomness)
 // We'll emit an event when the game is finished
 
 #[program]
-pub mod little_bites_events {
+pub mod lil_bits_events {
     use super::*;
 
     pub fn initialize(

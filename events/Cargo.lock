@@ -843,7 +843,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "little-bites-events"
+name = "lil-bits-events"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",

@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-little_bites_events = "E12wjANt2B7oUzucZ6jnfoLbymFmtC3UhUQn7HPaBrGr"
+little_bites_events = "8PMVG87KG7Vq9iAqAbCDMgorBjBpuz36HXiF8jBFGsL1"
 
 [registry]
 url = "https://api.apr.dev"

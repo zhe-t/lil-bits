@@ -1,7 +1,7 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { expect } from "chai";
-import { LittleBitesEvents } from "../target/types/little_bites_events";
+import { LilBitsEvents } from "../target/types/lil_bits_events";
 
 interface GameResultEvent {
   player: anchor.web3.PublicKey;
@@ -12,8 +12,7 @@ interface GameResultEvent {
 describe("events-example", () => {
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace
-    .LittleBitesEvents as Program<LittleBitesEvents>;
+  const program = anchor.workspace.LilBitsEvents as Program<LilBitsEvents>;
 
   const gameKeypair = anchor.web3.Keypair.generate();
   const player = (program.provider as anchor.AnchorProvider).wallet;
