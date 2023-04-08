@@ -13,13 +13,11 @@ pub mod little_bites_events {
         ctx: Context<Initialize>, 
         prediction: Coinside
     ) -> Result<()> {
-        ctx.accounts.game.start(ctx.accounts.player.key(), prediction)?;
-        Ok(())
+        ctx.accounts.game.start(ctx.accounts.player.key(), prediction)
     }
 
     pub fn flip(ctx: Context<Flip>) -> Result<()> {
-        ctx.accounts.game.flip()?;
-        Ok(())
+        ctx.accounts.game.flip()
     }
 }
 
